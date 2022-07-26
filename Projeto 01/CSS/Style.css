@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.highlight{
+  color: #FF9900;
+}
+.bold{
+  font-weight: 700;
+}
+main{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.main-img{
+  margin-bottom: 72px;
+  width: 348px;
+  height: 223px;
+}
+main h1{
+font-family:'Inter', sans-serif;
+font-weight: 400;
+font-size: 49px;
+line-height: 56px;
+margin-bottom: 32px;
+}
+main p{
+font-family: 'Open Sans', sans-serif;
+color: #7D7987;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+}
+.footer{
+  margin-top: 72px;
+  border-top: 1px solid #ECEFF2;
+  width: 568px;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  margin: 8px auto;
+  width: 35%;
+}
+
+/* Não soube aplicar as bolinhas com Flexbox. Então usei os atributos indicados na aula */
+.bolinhas{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
